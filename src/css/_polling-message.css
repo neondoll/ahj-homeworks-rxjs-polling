@@ -1,0 +1,4 @@
+.polling-message__from,
+.polling-message__subject { text-align: left; }
+
+.polling-message__received { text-align: right; }
