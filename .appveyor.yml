@@ -8,6 +8,9 @@ branches:
 
 cache: node_modules  # кеширование
 
+environment:
+  API_ROOT: $MY_API_ROOT
+
 install:
   - npm install  # команда установки зависимостей
 
