@@ -13,6 +13,8 @@ const updateStream$ = interval(5000).pipe(
 );
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('API_ROOT', API_ROOT);
+
   const container = document.querySelector('#app');
 
   const polling = new Polling({ update: updateStream$ });
